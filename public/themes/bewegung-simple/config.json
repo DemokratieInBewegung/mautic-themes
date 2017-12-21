@@ -1,10 +1,8 @@
 {
-  "name": "Bewegung Einfach",
+  "name": "Bewegung einfaches Layout",
   "author": "Benjamin Kampmann",
   "authorUrl": "https://bewegung.jetzt",
   "features": [
-    "page",
-    "email",
-    "form"
+    "email"
   ]
 }
