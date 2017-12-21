@@ -1,0 +1,10 @@
+{
+  "name": "Bewegung Einfach",
+  "author": "Benjamin Kampmann",
+  "authorUrl": "https://bewegung.jetzt",
+  "features": [
+    "page",
+    "email",
+    "form"
+  ]
+}

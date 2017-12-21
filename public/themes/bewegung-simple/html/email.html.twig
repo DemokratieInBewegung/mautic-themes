@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{subject}</title>
+        <style type="text/css" media="only screen and (max-width: 480px)">
+            /* Mobile styles */
+            @media only screen and (max-width: 480px) {
+
+                [class="w320"] {
+                    width: 320px !important;
+                }
+
+                [class="mobile-block"] {
+                    width: 100% !important;
+                    display: block !important;
+                }
+            }
+        </style>
+        <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500&amp;subset=latin-ext" rel="stylesheet">
+        <style> 
+          body {
+              font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', sans-serif;
+          }
+        </style>
+    </head>
+    <body style="margin:0">
+        <div style="height: 1em; background: linear-gradient(to right, #21466b 0%,#263d82 30%,#263d82 30%,#eb5c4a 100%);"><span style="font-size: 12pt;">&nbsp;</span></div>
+        <div>
+           <center>
+	     <a href="https://bewegung.jetzt"><img src="{{ getAssetUrl('themes/'~template~'/img/logo.png', null, null, true) }}" style="margin: 1em auto; max-width: 300px;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;"></a>
+           </center>
+        </div>
+        <div data-section-wrapper="1">
+            <center>
+                <table data-section="1" style="width: 600;" width="600" cellpadding="0" cellspacing="0">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div data-slot-container="1" style="min-height: 30px">
+                                    <div data-slot="text">
+                                        <br>
+                                        <h2>Hello {contactfield=firstname},</h2>
+                                        <br>
+                                        HIER DEN TEXT EINFÜGEN!
+                                        <br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </center>
+        </div>
+        <div style="height: 1em; background: linear-gradient(to right, #21466b 0%,#263d82 30%,#263d82 30%,#eb5c4a 100%);"><span style="font-size: 12pt;">&nbsp;</span></div>  
+	<div data-section-wrapper="1" style="background: #dbdbdb; color: #666666;"><center style="width: 100%;">
+	  <center>
+            <table data-section="1" style="width: 600;" width="600" cellpadding="0" cellspacing="0">
+	      <tbody><tr><td style="padding: 10px 0; line-height: 14px; text-align: center; color: #666666;" class="x-gmail-data-detectors">
+                  <a href="{webview_url}" style="color: #666666; font-size: 0.85em; padding-left: 5px;" >E-Mails online ansehen</a>
+                  <a href="{unsubscribe_url}" style="color: #666666; font-size: 0.85em;">E-Mails abbestellen</a>
+<br/><br/>Verantwortlich für den Inhalt (gem. § 55 Abs. 2 RStV):<br> Demokratie in Bewegung, Brunnenstr. 64/65, 13355 Berlin</span></td>
+	      </td></tr></tbody></table>
+          </center>
+	</div>
+    </body>
+</html>

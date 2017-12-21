@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% if page is defined %}
+        <title>{pagetitle}</title>
+            <meta name="description" content="{pagemetadescription}">
+            {% endif %}
+        {% block stylesheets %}{% endblock %}
+            {{ outputHeadDeclarations() }}
+    </head>
+    <body>
+        {{ outputScripts('bodyOpen') }}
+	<div style="height: 1em; background: linear-gradient(to right, #21466b 0%,#263d82 30%,#263d82 30%,#eb5c4a 100%);"><span style="font-size: 12pt;">&nbsp;</span></div>
+        {% block content %}{% endblock %}
+	<div style="height: 1em; background: linear-gradient(to right, #21466b 0%,#263d82 30%,#263d82 30%,#eb5c4a 100%);"><span style="font-size: 12pt;">&nbsp;</span></div>
+        {{ outputScripts('bodyClose') }}
+    </body>
+</html>
